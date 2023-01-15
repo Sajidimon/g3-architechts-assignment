@@ -224,7 +224,7 @@ header {
     width: 150px;
     height: 120px;
 }
-.reward-sector:hover p, h3 {
+.reward-sector:hover p {
     color: #fff;
 }
 
