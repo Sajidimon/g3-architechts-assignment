@@ -135,14 +135,17 @@ header {
 /* about section design */
 
 .about {
-    display: flex;
     margin: 100px 80px;
+}
+
+.about-us {
+    display: flex;
     gap: 100px;
 }
 
 .about-img img {
     width: 600px;
-    height: 800px;
+    height: 900px;
 }
 
 .about-info h2 {
@@ -169,6 +172,24 @@ header {
 
 .about-service p {
     padding-top: 10px;
+}
+
+.button {
+    text-align: center;
+    margin: -100px 0 0 40px;
+}
+
+.button button {
+    padding: 30px 20px;
+    color: #fff;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.button button span {
+    font-size: 40px;
+    font-weight: 700;
 }
 
 /* rewards section design */
