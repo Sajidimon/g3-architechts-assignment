@@ -6,8 +6,20 @@
 
 /* common styles */
 
-body{
+body {
     font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .btn-primary {
@@ -37,10 +49,19 @@ header {
     padding: 50px 0 100px 0;
 }
 
+.logo-area h4 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #131313;
+}
+
 .menu-area ul li {
     list-style: none;
     display: inline;
     margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
 
 }
 
@@ -51,7 +72,7 @@ header {
     text-align: center;
 }
 
-.hero h2 {
+.hero h1 {
     color: #131313;
     font-size: 64px;
     font-weight: 700;
@@ -67,17 +88,18 @@ header {
 .hero img {
     width: 1200px;
     height: 600px;
-    margin: 50px 0 45px 0;
+    margin: 50px 80px 45px 80px;
 }
 
 /* team section design */
 
-.team-area{
+.team-area {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin: 100px 80px;
 }
+
 .teams {
     display: grid;
     grid-template-columns: repeat(2, 370px);
@@ -89,23 +111,119 @@ header {
     height: 342px;
 }
 
-.features h2{
+.features h2 {
     color: #131313;
     font-size: 40px;
     font-weight: 700;
 }
 
-.features .first-color{
+.features .first-color {
     color: #727272;
 }
 
-.features .second-color{
+.features .second-color {
     color: #FF900E;
 }
 
-.features p{
+.features p {
     color: #727272;
     font-size: 16px;
     font-weight: 400;
     margin-top: 24px;
+}
+
+/* about section design */
+
+.about {
+    display: flex;
+    margin: 100px 80px;
+    gap: 100px;
+}
+
+.about-img img {
+    width: 600px;
+    height: 800px;
+}
+
+.about-info h2 {
+    margin-bottom: 24px;
+}
+
+.about-info h3 {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-services {
+    margin-top: 30px;
+}
+
+.about-service {
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 35px;
+}
+
+.about-service p {
+    padding-top: 10px;
+}
+
+/* rewards section design */
+
+.rewards {
+    margin: 100px 80px;
+}
+
+.rewards p {
+    margin-top: 24px;
+}
+
+.reward-sectors {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.reward-sector {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 20px 35px 30px 35px;
+}
+
+/* sponsored section design */
+
+.sponsored {
+    margin: 100px 80px;
+}
+
+.sponsored p {
+    margin-top: 24px;
+    ;
+}
+
+.all-sponsor {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 60px;
+}
+
+.all-sponsor img {
+    width: 150px;
+    height: 50px;
+}
+
+/* copyright section design */
+
+.copyright {
+    margin: 100px 80px;
+    text-align: center;
+    background-color: rgb(255, 197, 121);
+    padding: 35px 0 35px 0;
+    border-radius: 5px;
 }
